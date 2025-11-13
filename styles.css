@@ -15,13 +15,24 @@ body{
     font-weight: 400;
     font-style: normal;
   }
+
   .Список{
     font-weight: bold;
     font-size: 20px;
   }
+
   .done{
     color: ghostwhite;
   }
+
   .flip_vert {
     transform:scaleY(-1) ;
   }
+
+.flip_gor {
+    transform:scaleX(-1) ;
+}
+
+.flip_gor.flip_vert {
+  transform:scaleX(-1) scaleY(-1) ;
+}
